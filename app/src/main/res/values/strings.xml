@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestingAnimationInApp</string>
+    <string name="post_text">Texto do Post</string>
+    <string name="content_post_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry. </string>
+</resources>

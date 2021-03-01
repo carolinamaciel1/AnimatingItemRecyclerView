@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/PostContainerItem"
+    tools:context=".ItemNewsActivity">
+
+    <TextView
+        android:id="@+id/Post_textView"
+        android:layout_width="293dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:padding="10dp"
+        android:background="@drawable/item_news_style"
+        android:text="@string/content_post_text" />
+
+    <ImageView
+        android:id="@+id/Post_imageView"
+        android:layout_width="86dp"
+        android:layout_height="117dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        tools:src="@tools:sample/avatars" />
+
+</RelativeLayout>
